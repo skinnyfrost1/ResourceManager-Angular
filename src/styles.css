@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+app-signin{
+    /* text-align: center; */
+    position: absolute;
+    left:50%;
+    top:50%;
+    width:200px;
+    /* -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%); */
+    transform: translate(-150px, -50%);
+}
+
+.input.container{
+    text-align:left;
+}

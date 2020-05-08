@@ -1,0 +1,13 @@
+.spacer {
+  flex: 1 1 auto;
+}
+icon {
+  padding: 0 14px;
+}
+mat-toobar{
+  background:white;
+}
+
+mat-toolbar-row{
+  background: white;
+}

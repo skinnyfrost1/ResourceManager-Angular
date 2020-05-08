@@ -1,0 +1,26 @@
+<div class="login container">
+    <img src="../../../assets/Login.png">
+    <br>
+    <br>
+    <form class="loginForm" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+        <div class="input-container">
+            <label class="label">Username</label><br>
+            <input class="input" type="text" formControlName="username">
+        </div>
+        <div class="input-container">
+            <span class="label">Password</span><br>
+            <input class="input" type="password" formControlName="password">
+        </div>
+        <div class="input-container">
+            <button class="login-button" type="submit">Login</button>
+        </div>
+        <div>
+            <input type="checkbox" name="remember">Remember me
+        </div>
+        <div>
+            <span><button>Sign Up</button></span>
+            <span class="spacer"></span>
+            <span>Forgot Password</span>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,47 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+.label {
+  font-weight: bold;
+  width: 100%;
+}
+
+.input {
+  width: 296px;
+  height: 30px;
+  margin:0;
+  padding:0;
+  /* display: block; */
+}
+
+.login.container {
+  width: 300px;
+  text-align: center;
+}
+.loginForm {
+  text-align: left;
+}
+
+.input-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.login-button{
+    background-color: orangered;
+    border: none;
+    color: white;
+    text-align: center;
+    height:30px;
+    width:300px;
+    padding: auto;
+    
+    /* padding-left: 15px; */
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
